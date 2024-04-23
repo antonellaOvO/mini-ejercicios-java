@@ -21,6 +21,7 @@ public class Usuario {
      }
      public void preguntar(String nombreUsuario) {
          System.out.println("Hola " + nombreUsuario + "!" + " Como estas " + nombreUsuario + "?");
+         System.out.println("Yo estoy aprendiendo Java y ya veremos lo frustrante que es...");
      }
      public void repetirSaludo(int numero, String nombreUsuario) {
          int j = 1;
