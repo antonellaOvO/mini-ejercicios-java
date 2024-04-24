@@ -157,7 +157,7 @@ public OperacionesBasicas2(double numero1, double numero2){
         
         }
         
-        //scanner.close();  // Cerrar el scanner*/
+       
     }
     
 }
