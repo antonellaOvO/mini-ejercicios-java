@@ -67,6 +67,7 @@ public class ArrayYBucles {
     public static void main(String[] args) {
         // TODO code application logic here
        Scanner scanner = new Scanner(System.in);
+       
        /*Para poder sumar los valores del array*/
         double numero1, numero2, numero3;
         int numero4;
@@ -78,15 +79,18 @@ public class ArrayYBucles {
         ArrayYBucles nuevaInstancia = new ArrayYBucles(intArray);
         System.out.println("El resultado de la suma de los valores del array es: ");
         nuevaInstancia.sumarValoresArray();
+        
         /*Para poder visualizar los valores del array al revès*/
         System.out.println("Los valores del array al revés son: ");
         nuevaInstancia.imprimirValoresArrayAlReves();
-         /*Para obtener el valor del array más grande*/
+        
+        /*Para obtener el valor del array más grande*/
         System.out.println("El número más grande del array es el:");
         nuevaInstancia.obtenerNumeroMasGrande();
         /*Para obtener el valor del array más pequeño*/
         System.out.println("El número más pequeño del array es el:");
         nuevaInstancia.obtenerNumeroMasPequeno();
+        
         /*Para comparar 2 arrays*/
         System.out.println("Para comparar 2 arrays, por favor escribe la longitud que deseas que tengan tus 2 arrays:");
         numero4 = scanner.nextInt();
@@ -118,13 +122,8 @@ public class ArrayYBucles {
         } else {
             System.out.println("Estos arrays NO son idénticos");
         }
-        
-        
-        
-        
-        
+           
         
     }
-    
-    
+     
 }
